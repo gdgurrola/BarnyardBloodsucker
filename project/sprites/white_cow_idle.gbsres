@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "6a4752d7-e343-4a23-b7b2-a0b94d50eea0",
+  "name": "White Cow Idle",
+  "symbol": "sprite_white_cow_idle",
+  "numFrames": 24,
+  "filename": "White Cow Idle.png",
+  "checksum": "3f66ccbbd99cd6648cbbc8aaa7ca0f2190a695e0",
+  "width": 384,
+  "height": 256,
+  "states": [
+    {
+      "id": "35e0e557-e856-4e5b-88b4-fe29efa4e23d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6e7cb206-2e24-4bf3-bee8-547a9e4ee049",
+          "frames": [
+            {
+              "id": "65572ff2-69c5-479e-a876-bac3f73d772f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f463f894-9aed-4d96-ad0d-9ebb937d2d5d",
+          "frames": [
+            {
+              "id": "5b2c5bb1-b7cb-41a7-9e0b-8ca8d8f00ca6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "88047a4f-8fc7-4325-ad3e-ca25d94181a4",
+          "frames": [
+            {
+              "id": "f7ddde46-3c6e-4384-8dc0-d4bb36404eec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "39b382e3-bd03-420d-a4a1-7b4b4936a45c",
+          "frames": [
+            {
+              "id": "131aa21d-1bf7-44d3-9957-6223e71bbce6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af8a5e96-b32b-437d-976c-ed33275c2456",
+          "frames": [
+            {
+              "id": "4e22b3b1-62b5-4943-92d0-1141b704286f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9cd5afae-de86-4e1e-aea8-2b2d0764674d",
+          "frames": [
+            {
+              "id": "11ed4503-f6b8-42c0-b383-f0a0d87382d0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "50a00f33-96b2-429f-8f4a-04d1491dc3c3",
+          "frames": [
+            {
+              "id": "04cbc125-5e6e-4088-ae49-61b9fbb1d4f4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ac7ab61f-9ad1-4bb6-8278-f7418485f348",
+          "frames": [
+            {
+              "id": "dc9380b7-bf96-44ef-8442-60942c56fcb2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

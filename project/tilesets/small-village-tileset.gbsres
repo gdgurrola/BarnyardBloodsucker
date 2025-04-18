@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "3256e85e-4e12-46c6-af11-af9045ada770",
+  "name": "small-village-tileset",
+  "symbol": "tileset_small_village_tiles",
+  "width": 14,
+  "height": 13,
+  "imageWidth": 112,
+  "imageHeight": 104,
+  "filename": "small-village-tileset.png"
+}

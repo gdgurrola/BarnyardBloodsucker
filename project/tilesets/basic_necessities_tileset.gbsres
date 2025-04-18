@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "583e17ba-2a8a-4543-b549-c4fa086610c4",
+  "name": "basic_necessities_tileset",
+  "symbol": "tileset_basic_necessities_t",
+  "width": 24,
+  "height": 44,
+  "imageWidth": 192,
+  "imageHeight": 352,
+  "filename": "basic_necessities_tileset.png"
+}
