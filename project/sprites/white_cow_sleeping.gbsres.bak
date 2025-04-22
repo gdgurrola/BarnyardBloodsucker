@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "8bdb0ba5-a4de-4208-995b-033787d9e966",
+  "name": "White Cow Sleeping",
+  "symbol": "sprite_white_cow_sleeping",
+  "numFrames": 16,
+  "filename": "White Cow Sleeping.png",
+  "checksum": "f2a062cf77a9ea6ed53a507b2f5f6e8dfbf28a6a",
+  "width": 256,
+  "height": 256,
+  "states": [
+    {
+      "id": "e659001b-3248-4bb0-aad5-a3c226c5ad93",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "f619df66-82b1-4262-af88-d4a4a81f3e33",
+          "frames": [
+            {
+              "id": "54754701-03e4-4e8e-bae7-2517e22bb580",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca1556df-7ae5-4006-868b-f4edd407a8b0",
+          "frames": [
+            {
+              "id": "f71696a4-467f-468e-8530-3fbae1012dc6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c36fd1f9-f71b-48be-b269-cf45e736e7b1",
+          "frames": [
+            {
+              "id": "5cf20b58-289b-4031-a52d-b5ef888412a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1918c0ca-eb8f-4593-973d-82793b8cadf4",
+          "frames": [
+            {
+              "id": "2f1e1d2d-d15a-43ca-921b-c09406eba783",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4fec6758-3a39-418e-b70f-64255edb5395",
+          "frames": [
+            {
+              "id": "63b9752e-6965-4885-ba3f-025477e203ac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdb8ef50-3569-42ee-97a7-78356904d3ec",
+          "frames": [
+            {
+              "id": "c0645757-ce2f-4425-b0f9-d6aeec925139",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "83fd86ed-ec9c-4ba4-bdd3-7ae7e1a06a5f",
+          "frames": [
+            {
+              "id": "84bc22ec-085c-4066-8a51-791adb9ffc01",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f64cd25b-9984-4f03-a8ae-b8da722e78ec",
+          "frames": [
+            {
+              "id": "4d47dc7b-47f4-427b-9998-894f37517b86",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

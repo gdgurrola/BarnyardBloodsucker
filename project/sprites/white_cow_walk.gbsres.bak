@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "d9d4307f-fd2c-41c2-b215-11ef3fc57c66",
+  "name": "White Cow Walk",
+  "symbol": "sprite_white_cow_walk",
+  "numFrames": 16,
+  "filename": "White Cow Walk.png",
+  "checksum": "e296931498d93a77814e81a0776cdc6c8314e5f1",
+  "width": 256,
+  "height": 256,
+  "states": [
+    {
+      "id": "9c73a837-db93-4c71-9bd9-ceec24702b1d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ed6cdf23-402c-40e1-b378-ed428690a724",
+          "frames": [
+            {
+              "id": "41c7f303-3d97-49b8-b2ff-0160781b7b12",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5d48560-09ea-4656-980c-97951b22f990",
+          "frames": [
+            {
+              "id": "28a8ba4e-2bfc-4be2-b244-951b4235a083",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f4000de-5ba8-4923-9329-c91a74461da6",
+          "frames": [
+            {
+              "id": "9e8b579f-f1b2-4841-91ba-52d63e0aab9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3d81538b-7761-4004-a420-39650990140e",
+          "frames": [
+            {
+              "id": "8065b1c2-cf53-4c87-935c-01b04aa113ae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0b90755f-2bc0-4c3e-a5f2-41d4e94c3e7d",
+          "frames": [
+            {
+              "id": "cec052d5-7153-4f79-b3f9-308dd3a0b078",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e390dc5-3fd9-47b4-b7e3-8d7542a22fe5",
+          "frames": [
+            {
+              "id": "2239fe67-98b4-4ae1-b53b-f18c4cc9c613",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d5a1f4b-9a3f-45dd-9b40-3297f4a07c02",
+          "frames": [
+            {
+              "id": "57da75ba-de65-41ed-81db-2b1057c22fdf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "203e97ac-72cc-4507-ad87-4e43bc5cc15a",
+          "frames": [
+            {
+              "id": "8704ecdf-3772-451f-8244-1c66bf79c802",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
