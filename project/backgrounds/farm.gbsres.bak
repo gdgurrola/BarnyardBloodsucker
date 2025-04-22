@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dca98597-5388-4e9a-aadd-e3d22411f539",
+  "name": "Farm",
+  "symbol": "bg_farm",
+  "width": 120,
+  "height": 120,
+  "imageWidth": 960,
+  "imageHeight": 960,
+  "filename": "Farm.png",
+  "tileColors": ""
+}

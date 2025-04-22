@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "8b4f677d-e60b-4553-bd6f-ebe7492e4125",
+  "_index": 0,
+  "name": "Farm",
+  "backgroundId": "dca98597-5388-4e9a-aadd-e3d22411f539",
+  "tilesetId": "",
+  "width": 120,
+  "height": 120,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003840+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 104,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
