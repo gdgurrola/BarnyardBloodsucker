@@ -1,0 +1,66 @@
+{
+  "_resourceType": "script",
+  "id": "457e26fd-ac76-4629-8800-22e6ba50a75a",
+  "name": "CowDied",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Farmer"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "game over"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f60983a0-2e6a-4439-b609-48a48d2ebb65"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "6922ac30-0a67-4074-a92a-6aae31564c7d"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "13"
+        },
+        "y": {
+          "type": "variable",
+          "value": "6"
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "a24e3b40-5b82-4344-b531-45bd1821b480"
+    }
+  ]
+}

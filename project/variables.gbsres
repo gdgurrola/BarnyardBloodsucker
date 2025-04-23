@@ -23,18 +23,18 @@
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": ""
+      "name": "Cow1Health",
+      "symbol": "var_cow1health"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": ""
+      "name": "BloodBank",
+      "symbol": "var_bloodbank"
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": ""
+      "name": "DeathY",
+      "symbol": "var_deathy"
     },
     {
       "id": "7",
@@ -65,6 +65,16 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": ""
+    },
+    {
+      "id": "13",
+      "name": "DeathX",
+      "symbol": "var_deathx"
+    },
+    {
+      "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80__L0",
+      "name": "De",
+      "symbol": "var_de"
     }
   ]
 }

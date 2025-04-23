@@ -15,9 +15,23 @@
   "symbol": "scene_1",
   "x": 104,
   "y": 32,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 10
+        },
+        "__collapse": false
+      },
+      "id": "b18612ea-16f7-4808-9330-cd2871313cb3"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "e6c93536-739d-4a99-9f79-9c91cb31c18f"
+  "playerSpriteSheetId": "e6c93536-739d-4a99-9f79-9c91cb31c18f",
+  "autoFadeEventCollapse": false
 }
