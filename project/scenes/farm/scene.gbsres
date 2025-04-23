@@ -27,9 +27,65 @@
         "__collapse": false
       },
       "id": "b18612ea-16f7-4808-9330-cd2871313cb3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "14",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "b5821e93-f5b4-4ae7-8bc0-2b287a8a4380"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<",
+        "distance": {
+          "type": "number",
+          "value": 30
+        },
+        "otherActorId": "54ad94e4-557d-47a1-985d-389170a03713",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You got caught!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "525f1449-cb10-4f6d-999a-df2860c50402"
+          }
+        ],
+        "false": []
+      },
+      "id": "36237800-49af-4940-ac19-931f251c4f35"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "e6c93536-739d-4a99-9f79-9c91cb31c18f",

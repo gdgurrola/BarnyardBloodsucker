@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "72b867c7-6a1a-4f67-addb-d9d89a44cf41",
+  "id": "12f9b954-0fb2-4168-b995-ccf5b8b94de3",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_3",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -33,7 +33,7 @@
         "moveType": "horizontal",
         "useCollisions": false
       },
-      "id": "ceb6e85b-08f1-4bcf-b4b3-360745ff4c10"
+      "id": "1bc75c74-96ea-4f41-aad0-474fbaab1b06"
     },
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -50,7 +50,7 @@
         "moveType": "horizontal",
         "useCollisions": false
       },
-      "id": "4e245062-7af1-455b-99d9-530a4c5a441f"
+      "id": "ea4b7220-26fd-440c-ae6f-bd1daafa6743"
     },
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -67,7 +67,7 @@
         "moveType": "horizontal",
         "useCollisions": false
       },
-      "id": "3e839fcc-7c91-449d-9304-b9a6ebea9e8a"
+      "id": "3c192932-d560-4963-bb50-1a734a5bf2f9"
     },
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -84,13 +84,13 @@
         "moveType": "horizontal",
         "useCollisions": false
       },
-      "id": "1178d7ef-8a4a-4462-8eb4-da0bc4e0a8cc"
+      "id": "01212b73-2417-4448-b53f-0246272bb1e1"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 42,
-  "y": 90,
+  "x": 78,
+  "y": 65,
   "_index": 1
 }

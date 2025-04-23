@@ -181,8 +181,7 @@
         },
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": true,
-        "__comment": true
+        "__collapse": false
       },
       "children": {
         "true": [

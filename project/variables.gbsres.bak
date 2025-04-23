@@ -2,26 +2,6 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "0",
-      "name": "Seen Cat",
-      "symbol": ""
-    },
-    {
-      "id": "1",
-      "name": "Seen duck",
-      "symbol": ""
-    },
-    {
-      "id": "2",
-      "name": "Used Radio",
-      "symbol": ""
-    },
-    {
-      "id": "3",
-      "name": "Spoke To Space Dog",
-      "symbol": ""
-    },
-    {
       "id": "4",
       "name": "Cow1Health",
       "symbol": "var_cow1health"
@@ -62,14 +42,19 @@
       "symbol": ""
     },
     {
-      "id": "12",
-      "name": "PushedIceBlock",
-      "symbol": ""
-    },
-    {
       "id": "13",
       "name": "DeathX",
       "symbol": "var_deathx"
+    },
+    {
+      "id": "14",
+      "name": "IsDrinking",
+      "symbol": "var_isdrinking"
+    },
+    {
+      "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80__L0",
+      "name": "De",
+      "symbol": "var_de"
     }
   ]
 }
