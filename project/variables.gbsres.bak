@@ -55,6 +55,66 @@
       "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80__L0",
       "name": "De",
       "symbol": "var_de"
+    },
+    {
+      "id": "936ef850-802b-4868-a9a3-b9b0632a841e__L0",
+      "name": "De",
+      "symbol": "var_de_0"
+    },
+    {
+      "id": "969d4022-b55d-4ddd-a50d-56527add9bb0__L0",
+      "name": "De",
+      "symbol": "var_de_1"
+    },
+    {
+      "id": "f67dfe04-5cbb-4bba-a9ba-99d1ef7e4a3b__L0",
+      "name": "De",
+      "symbol": "var_de_2"
+    },
+    {
+      "id": "99372510-9305-4aed-ad9a-e25859fa7b8a__L0",
+      "name": "De",
+      "symbol": "var_de_3"
+    },
+    {
+      "id": "92e9aa01-3379-477b-9f8e-ebef2a485672__L0",
+      "name": "De",
+      "symbol": "var_de_4"
+    },
+    {
+      "id": "6f8ca827-8aea-4d81-a902-c640b5a9ee48__L0",
+      "name": "De",
+      "symbol": "var_de_5"
+    },
+    {
+      "id": "75f2092a-efe1-416b-9003-5e7565fdc485__L0",
+      "name": "De",
+      "symbol": "var_de_6"
+    },
+    {
+      "id": "2271d19c-628d-4066-b735-c0a7defbdd39__L0",
+      "name": "De",
+      "symbol": "var_de_7"
+    },
+    {
+      "id": "abaa497b-5085-4bb2-a51b-381c1228dcb7__L0",
+      "name": "De",
+      "symbol": "var_de_8"
+    },
+    {
+      "id": "70a2fa9a-2d87-4725-8674-299da2cb3697__L0",
+      "name": "De",
+      "symbol": "var_de_9"
+    },
+    {
+      "id": "0",
+      "name": "FarmerTimer",
+      "symbol": "var_farmertimer"
+    },
+    {
+      "id": "1",
+      "name": "FarmerMoveIndex",
+      "symbol": "var_farmermoveindex"
     }
   ]
 }

@@ -105,6 +105,21 @@
       "id": "70a2fa9a-2d87-4725-8674-299da2cb3697__L0",
       "name": "De",
       "symbol": "var_de_9"
+    },
+    {
+      "id": "0",
+      "name": "FarmerTimer",
+      "symbol": "var_farmertimer"
+    },
+    {
+      "id": "1",
+      "name": "FarmerMoveIndex",
+      "symbol": "var_farmermoveindex"
+    },
+    {
+      "id": "54ad94e4-557d-47a1-985d-389170a03713__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }

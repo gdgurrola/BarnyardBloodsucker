@@ -1,0 +1,188 @@
+{
+  "_resourceType": "script",
+  "id": "b3299bb6-3fa1-4164-88bb-135bcdfa4566",
+  "name": "MoveFarmer",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "0: down\n1: right\n2: up\n3: left"
+      },
+      "id": "765cc10c-020e-4909-a052-3897f41dbe63"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "0ab6f103-4a1e-495a-a5d1-4c4ea6561949"
+          }
+        ],
+        "false": []
+      },
+      "id": "785e12cf-f456-4c0f-966e-7b938c4c0666"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "c64b91e1-014b-4b61-9906-340ee023a81e"
+          }
+        ],
+        "false": []
+      },
+      "id": "f4c0d8f4-e9de-41d7-8bf9-d1f7d03da99e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "535666d1-f1f9-4345-a5cc-0c42cf7e081c"
+          }
+        ],
+        "false": []
+      },
+      "id": "7f7b01ec-b413-4d2e-ac77-7c35cff7ef81"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "f0e21c7c-15f1-426d-8479-2287824430e0"
+          }
+        ],
+        "false": []
+      },
+      "id": "ad6fa2fe-34e8-4a3e-add0-3f57e7cb4943"
+    }
+  ]
+}

@@ -43,13 +43,13 @@
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
       "args": {
-        "actorId": "54ad94e4-557d-47a1-985d-389170a03713",
+        "actorId": "player",
         "operator": "<",
         "distance": {
           "type": "number",
-          "value": 30
+          "value": 5
         },
-        "otherActorId": "$self$",
+        "otherActorId": "54ad94e4-557d-47a1-985d-389170a03713",
         "__collapseElse": true,
         "__collapse": false
       },
