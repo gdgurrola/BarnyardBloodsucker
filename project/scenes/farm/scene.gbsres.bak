@@ -8,7 +8,14 @@
   "width": 120,
   "height": 120,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    ""
+  ],
   "spritePaletteIds": [],
   "collisions": "003840+",
   "autoFadeSpeed": 1,
@@ -51,7 +58,8 @@
         },
         "otherActorId": "54ad94e4-557d-47a1-985d-389170a03713",
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
