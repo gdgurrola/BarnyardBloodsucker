@@ -3,9 +3,9 @@
   "id": "default-bg-1",
   "name": "Default BG 1",
   "colors": [
-    "F8E8C8",
+    "F80000",
     "D89048",
-    "A82820",
+    "F80000",
     "301850"
   ],
   "defaultName": "Default BG 1",

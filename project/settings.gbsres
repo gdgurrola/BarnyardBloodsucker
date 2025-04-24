@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
   "startSceneId": "8b4f677d-e60b-4553-bd6f-ebe7492e4125",
-  "startX": 49,
-  "startY": 30,
+  "startX": 46,
+  "startY": 28,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
@@ -21,7 +21,7 @@
   ],
   "defaultSpritePaletteIds": [
     "default-bg-3",
-    "default-sprite",
+    "default-bg-1",
     "default-sprite",
     "default-sprite",
     "default-sprite",
