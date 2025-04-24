@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80",
-  "name": "",
+  "name": "Cow1",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57",

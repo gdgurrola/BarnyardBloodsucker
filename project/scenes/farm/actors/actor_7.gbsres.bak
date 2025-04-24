@@ -70,6 +70,14 @@
             "id": "8f54ddb3-ff74-4739-886c-21bc787fbdc8"
           },
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "bf44b1b1-dcfa-4151-9c3e-fce678de7eef"
+            },
+            "id": "6baeb169-46f8-4f38-a726-d53de3b5af5d"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "14",
