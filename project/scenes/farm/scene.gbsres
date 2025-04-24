@@ -10,9 +10,9 @@
   "type": "TOPDOWN",
   "paletteIds": [
     null,
+    "",
     null,
-    null,
-    null,
+    "",
     null,
     ""
   ],

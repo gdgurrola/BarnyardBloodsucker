@@ -196,35 +196,6 @@
       "id": "46b82ce9-9257-4d10-b6d4-4d7c9e1d3baa"
     },
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 26
-        },
-        "y": {
-          "type": "number",
-          "value": 23
-        },
-        "__collapseElse": true,
-        "__comment": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "b3299bb6-3fa1-4164-88bb-135bcdfa4566"
-            },
-            "id": "a2a218b1-66a9-4070-87a5-2324eab714e0"
-          }
-        ],
-        "false": []
-      },
-      "id": "07c38c37-ed79-42ab-9260-4533805b1785"
-    },
-    {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
       "args": {
         "actorId": "player",
@@ -235,7 +206,7 @@
         },
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -287,6 +258,13 @@
       "id": "8b739f93-f7f7-431d-94de-19acb4bbe3fe"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "0: down\n1: right\n2: up\n3: left"
+      },
+      "id": "53adf436-f24b-4586-8c99-9f5881c2e265"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -302,7 +280,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -345,7 +323,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -380,7 +358,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -415,7 +393,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
