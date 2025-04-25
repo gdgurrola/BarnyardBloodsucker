@@ -1,0 +1,200 @@
+{
+  "_resourceType": "actor",
+  "id": "217b1799-ce87-4faf-999f-bbb32e20713a",
+  "name": "Cow1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "bf44b1b1-dcfa-4151-9c3e-fce678de7eef",
+              "__collapse": true
+            },
+            "id": "8d37c797-28b7-4900-8d61-f576c625980c"
+          },
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "4",
+              "__collapse": true
+            },
+            "id": "2714628c-552d-4275-bd30-1b2569a2cf29"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": true
+            },
+            "id": "2fccbfe9-3247-4441-aed6-05b8e71be9d4"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_GET_POSITION",
+                  "args": {
+                    "actorId": "player",
+                    "vectorX": "13",
+                    "vectorY": "6",
+                    "__collapse": true
+                  },
+                  "id": "d0ebcda0-3987-4749-9eec-5c5f36f6855f"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "13",
+                    "value": {
+                      "type": "add",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "13"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__collapse": true
+                  },
+                  "id": "6737c943-90b5-43c8-b032-b7010a5c0a5d"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "6",
+                    "value": {
+                      "type": "add",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "6"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__collapse": true
+                  },
+                  "id": "dfb312f1-7528-4e7b-b4f4-c483a30d0723"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "cow dead"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "0e26d559-0268-4878-ae48-f88d0b580918"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "457e26fd-ac76-4629-8800-22e6ba50a75a",
+                    "__collapse": true
+                  },
+                  "id": "8ed62572-8395-4d57-ae94-c4eef7c858f5"
+                }
+              ],
+              "false": []
+            },
+            "id": "7bb2e0fa-95a2-45ba-bc07-15b94c5953c9"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.75,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "a4c995fc-bb57-4571-886c-f42da2d49a12"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57"
+            },
+            "id": "80a342d7-21da-479f-953b-4e89ed00538d"
+          }
+        ],
+        "false": []
+      },
+      "id": "83a9e6b5-765b-4a3b-96ab-e619e647ef83"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 61,
+  "y": 87,
+  "_index": 10
+}
