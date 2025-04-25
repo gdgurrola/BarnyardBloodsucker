@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "0cda21a3-f8b5-447e-b328-fcb0a2280655",
+  "name": "Vampire-Burn",
+  "symbol": "sprite_vampire_burn",
+  "numFrames": 5,
+  "filename": "Vampire-Burn.png",
+  "checksum": "87a09f90c3587c7b2afd2dbefdec335693165f58",
+  "width": 80,
+  "height": 32,
+  "states": [
+    {
+      "id": "71969460-1eb3-4cbd-b99f-0556f6f96c5b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "7acab3bb-e1f9-4972-9a62-3e89cb92e4c1",
+          "frames": [
+            {
+              "id": "c8fbf3d4-b9a8-4acd-a143-65fff6542767",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a878413-2eb4-4cb3-be48-2377b9e2d073",
+          "frames": [
+            {
+              "id": "d060dc59-78e1-4f24-9601-7245a721b9fa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a0de82ab-e1cf-422b-8469-549c6731afd2",
+          "frames": [
+            {
+              "id": "e3da1cd5-90fc-4578-90c9-9117398ef5a9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ce6822a-9b9d-404d-ae43-208381215997",
+          "frames": [
+            {
+              "id": "324d5da5-1b4f-4445-afd7-198e9ed614d6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "95b36a8b-0602-4468-b9b7-ede91f26bed4",
+          "frames": [
+            {
+              "id": "abda6b79-8f10-4c43-a652-5fb0d41615a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a59da96e-2e98-4e5c-b2c3-de41c5c9b831",
+          "frames": [
+            {
+              "id": "5048b04a-261b-42d1-a8f5-e01c4ebcb723",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d6fc7f68-aa3a-498b-9033-5aab88d66352",
+          "frames": [
+            {
+              "id": "81e0153f-345a-4318-88c6-f90f179a61e8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44d42928-9433-4772-8b1b-69ae175592a6",
+          "frames": [
+            {
+              "id": "8cb7696b-18d7-48b4-b329-8556114d3f3c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

@@ -38,16 +38,24 @@
       "id": "f60983a0-2e6a-4439-b609-48a48d2ebb65"
     },
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "6922ac30-0a67-4074-a92a-6aae31564c7d"
+    },
+    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "actorId": "0",
         "x": {
-          "type": "number",
-          "value": 0
+          "type": "variable",
+          "value": "13"
         },
         "y": {
-          "type": "number",
-          "value": 0
+          "type": "variable",
+          "value": "6"
         },
         "moveType": "horizontal",
         "useCollisions": false

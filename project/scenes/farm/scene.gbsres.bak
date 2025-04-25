@@ -92,6 +92,29 @@
         "false": []
       },
       "id": "36237800-49af-4940-ac19-931f251c4f35"
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "e5eb664c-1534-46ff-b9ef-693182619230"
+            },
+            "id": "10ac7095-b1cd-44b5-946c-62375e46ee6e"
+          }
+        ],
+        "false": []
+      },
+      "id": "803ebc24-65b7-4481-aac1-110513e62687"
     }
   ],
   "playerHit2Script": [],

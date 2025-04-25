@@ -120,11 +120,6 @@
       "id": "54ad94e4-557d-47a1-985d-389170a03713__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
-    },
-    {
-      "id": "2",
-      "name": "VampireBat",
-      "symbol": "var_vampirebat"
     }
   ]
 }

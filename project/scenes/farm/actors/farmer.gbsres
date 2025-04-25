@@ -24,7 +24,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": false
       },
       "id": "df49e8b8-4cb9-405b-b93f-da8eec19f686"
     },
@@ -35,7 +36,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": false
       },
       "id": "df8c9b6f-7c70-4ea0-abad-dda4742b2f61"
     }
@@ -54,7 +56,7 @@
           "value": 23
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": true
       },
       "children": {
@@ -239,7 +241,8 @@
           {
             "command": "EVENT_STOP",
             "args": {
-              "__comment": true
+              "__comment": true,
+              "__collapse": false
             },
             "id": "1149ace1-00e0-4237-8e2f-b31c21b527fc"
           }

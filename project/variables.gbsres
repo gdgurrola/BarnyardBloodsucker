@@ -2,6 +2,16 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "FarmerTimer",
+      "symbol": "var_farmertimer"
+    },
+    {
+      "id": "1",
+      "name": "FarmerMoveIndex",
+      "symbol": "var_farmermoveindex"
+    },
+    {
       "id": "4",
       "name": "Cow1Health",
       "symbol": "var_cow1health"
@@ -15,21 +25,6 @@
       "id": "6",
       "name": "DeathY",
       "symbol": "var_deathy"
-    },
-    {
-      "id": "7",
-      "name": "Quest4",
-      "symbol": ""
-    },
-    {
-      "id": "8",
-      "name": "Quest5",
-      "symbol": ""
-    },
-    {
-      "id": "9",
-      "name": "Quest6",
-      "symbol": ""
     },
     {
       "id": "10",
@@ -107,19 +102,34 @@
       "symbol": "var_de_9"
     },
     {
-      "id": "0",
-      "name": "FarmerTimer",
-      "symbol": "var_farmertimer"
-    },
-    {
-      "id": "1",
-      "name": "FarmerMoveIndex",
-      "symbol": "var_farmermoveindex"
-    },
-    {
       "id": "54ad94e4-557d-47a1-985d-389170a03713__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "7",
+      "name": "Spotlight Move Index 1",
+      "symbol": "var_spotlight_move_index_1"
+    },
+    {
+      "id": "2",
+      "name": "Sptlight 1 Timer",
+      "symbol": "var_sptlight_1_timer"
+    },
+    {
+      "id": "8",
+      "name": "Spotlight 2 Timer",
+      "symbol": "var_spotlight_2_timer"
+    },
+    {
+      "id": "9",
+      "name": "Spotlight Move Index 2",
+      "symbol": "var_spotlight_move_index_2"
+    },
+    {
+      "id": "3",
+      "name": "Sun Timer",
+      "symbol": "var_sun_timer"
     }
   ]
 }

@@ -15,7 +15,8 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "0: down\n1: right\n2: up\n3: left"
+        "text": "0: down\n1: right\n2: up\n3: left",
+        "__collapse": true
       },
       "id": "765cc10c-020e-4909-a052-3897f41dbe63"
     },

@@ -1,23 +1,24 @@
 {
   "_resourceType": "script",
-  "id": "b3299bb6-3fa1-4164-88bb-135bcdfa4566",
-  "name": "MoveFarmer",
+  "id": "fe01f09d-d038-4fa0-8313-51e4a81fe206",
+  "name": "Move Spotlight 1",
   "description": "",
   "variables": {},
   "actors": {
-    "0": {
-      "id": "0",
-      "name": "Actor A"
+    "9": {
+      "id": "9",
+      "name": "Actor J"
     }
   },
-  "symbol": "script_3",
+  "symbol": "script_4",
   "script": [
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "0: down\n1: right\n2: up\n3: left"
+        "text": "0: down\n1: right\n2: up\n3: left",
+        "__collapse": true
       },
-      "id": "765cc10c-020e-4909-a052-3897f41dbe63"
+      "id": "cdc7a702-f009-4bce-a319-0169a4731f7d"
     },
     {
       "command": "EVENT_IF",
@@ -26,7 +27,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
@@ -34,7 +35,6 @@
           }
         },
         "__collapseElse": true,
-        "__comment": false,
         "__collapse": true
       },
       "children": {
@@ -42,7 +42,7 @@
           {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
-              "actorId": "0",
+              "actorId": "9",
               "x": {
                 "type": "number",
                 "value": 0
@@ -52,14 +52,15 @@
                 "value": 1
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": false
             },
-            "id": "0ab6f103-4a1e-495a-a5d1-4c4ea6561949"
+            "id": "c6a22a55-cc4d-4d7b-bfb5-5eabef921e7c"
           }
         ],
         "false": []
       },
-      "id": "785e12cf-f456-4c0f-966e-7b938c4c0666"
+      "id": "1a07f3a2-b7f2-45b5-88d8-d1bb907d78db"
     },
     {
       "command": "EVENT_IF",
@@ -68,7 +69,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
@@ -83,7 +84,7 @@
           {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
-              "actorId": "0",
+              "actorId": "9",
               "x": {
                 "type": "number",
                 "value": 1
@@ -95,12 +96,12 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "c64b91e1-014b-4b61-9906-340ee023a81e"
+            "id": "86efa179-da40-4bf2-a5e4-8239d13a8011"
           }
         ],
         "false": []
       },
-      "id": "f4c0d8f4-e9de-41d7-8bf9-d1f7d03da99e"
+      "id": "21e7119e-11e2-4c28-9a2d-3e02e0c1d0c5"
     },
     {
       "command": "EVENT_IF",
@@ -109,7 +110,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
@@ -124,7 +125,7 @@
           {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
-              "actorId": "0",
+              "actorId": "9",
               "x": {
                 "type": "number",
                 "value": 0
@@ -136,12 +137,12 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "535666d1-f1f9-4345-a5cc-0c42cf7e081c"
+            "id": "279e0326-6698-4096-ab69-7e636b85d29a"
           }
         ],
         "false": []
       },
-      "id": "7f7b01ec-b413-4d2e-ac77-7c35cff7ef81"
+      "id": "10daaf19-50c9-474b-80a3-e63105ffe69b"
     },
     {
       "command": "EVENT_IF",
@@ -150,7 +151,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
@@ -165,7 +166,7 @@
           {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
-              "actorId": "0",
+              "actorId": "9",
               "x": {
                 "type": "number",
                 "value": -1
@@ -177,12 +178,12 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "f0e21c7c-15f1-426d-8479-2287824430e0"
+            "id": "970515c6-4d59-43b5-9f4e-2032ed446ab4"
           }
         ],
         "false": []
       },
-      "id": "ad6fa2fe-34e8-4a3e-add0-3f57e7cb4943"
+      "id": "4bb3d473-e316-4bbb-a939-c65862d5ccf8"
     }
   ]
 }

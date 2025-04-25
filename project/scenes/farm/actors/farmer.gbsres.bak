@@ -260,7 +260,8 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "0: down\n1: right\n2: up\n3: left"
+        "text": "0: down\n1: right\n2: up\n3: left",
+        "__collapse": true
       },
       "id": "53adf436-f24b-4586-8c99-9f5881c2e265"
     },
@@ -284,14 +285,6 @@
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "b3299bb6-3fa1-4164-88bb-135bcdfa4566",
-              "__comment": true
-            },
-            "id": "fe89b1e0-3a88-4142-b401-d2acf2012bb4"
-          },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
