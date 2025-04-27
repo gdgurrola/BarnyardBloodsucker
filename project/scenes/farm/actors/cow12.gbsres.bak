@@ -47,8 +47,8 @@
           {
             "command": "EVENT_DEC_VALUE",
             "args": {
-              "variable": "4",
-              "__collapse": true
+              "variable": "28",
+              "__collapse": false
             },
             "id": "e31f9556-9e61-4840-9234-1e76f30a0dd7"
           },

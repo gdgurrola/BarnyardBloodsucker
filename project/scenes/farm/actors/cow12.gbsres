@@ -157,7 +157,8 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "457e26fd-ac76-4629-8800-22e6ba50a75a",
-                    "__collapse": true
+                    "__collapse": false,
+                    "$actor[0]$": "54ad94e4-557d-47a1-985d-389170a03713"
                   },
                   "id": "06a79735-d5fc-4cc8-98a8-503ee4681583"
                 }
