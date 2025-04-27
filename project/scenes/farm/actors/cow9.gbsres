@@ -23,7 +23,7 @@
           "type": "gt",
           "valueA": {
             "type": "variable",
-            "value": "4"
+            "value": "21"
           },
           "valueB": {
             "type": "number",
@@ -47,8 +47,8 @@
           {
             "command": "EVENT_DEC_VALUE",
             "args": {
-              "variable": "4",
-              "__collapse": true
+              "variable": "21",
+              "__collapse": false
             },
             "id": "f72e063e-a34d-457f-a9fd-ebe062970ad7"
           },
@@ -67,7 +67,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "4"
+                  "value": "21"
                 },
                 "valueB": {
                   "type": "number",
@@ -75,7 +75,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -189,12 +189,24 @@
       "id": "290e8df7-90d0-4b21-98b3-8b3ed6797dd7"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "a0ea51f2-b76f-4d2f-973f-ddb14bdd0036"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 85,
-  "y": 55,
+  "x": 80,
+  "y": 49,
   "_index": 5
 }

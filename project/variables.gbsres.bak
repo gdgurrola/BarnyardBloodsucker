@@ -130,6 +130,146 @@
       "id": "54ad94e4-557d-47a1-985d-389170a03713__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "43d10e60-ef07-4e9c-9b88-3f49221f837d__L0",
+      "name": "De",
+      "symbol": "var_de_10"
+    },
+    {
+      "id": "d5b3a6de-2d4c-427b-abe1-fb67a61163f1__L0",
+      "name": "De",
+      "symbol": "var_de_11"
+    },
+    {
+      "id": "97aa8fcc-3de3-4f44-aa65-289a6e252b6a__L0",
+      "name": "De",
+      "symbol": "var_de_12"
+    },
+    {
+      "id": "de8fe374-6815-4125-a2e8-f27c1866fc25__L0",
+      "name": "De",
+      "symbol": "var_de_13"
+    },
+    {
+      "id": "726b3496-facb-4548-b421-73cb53c9f862__L0",
+      "name": "De",
+      "symbol": "var_de_14"
+    },
+    {
+      "id": "a25b7471-1ccb-41c9-9504-5dede23b774e__L0",
+      "name": "De",
+      "symbol": "var_de_15"
+    },
+    {
+      "id": "217b1799-ce87-4faf-999f-bbb32e20713a__L0",
+      "name": "De",
+      "symbol": "var_de_16"
+    },
+    {
+      "id": "2bde0803-41f4-44fc-b7e3-e335cd7ce843__L0",
+      "name": "De",
+      "symbol": "var_de_17"
+    },
+    {
+      "id": "1751fedf-99fb-437a-9460-ed3cb444e512__L0",
+      "name": "De",
+      "symbol": "var_de_18"
+    },
+    {
+      "id": "42da24f8-b4a4-48f9-829f-80a3f17f6e4f__L0",
+      "name": "De",
+      "symbol": "var_de_19"
+    },
+    {
+      "id": "3908109e-4022-4f62-98f1-b2e8f184cce0__L0",
+      "name": "De",
+      "symbol": "var_de_20"
+    },
+    {
+      "id": "ee8e712e-16ef-4417-89c2-e95f94c8f940__L0",
+      "name": "De",
+      "symbol": "var_de_21"
+    },
+    {
+      "id": "a0055a8c-7cf0-4489-8967-a93746a1e695__L0",
+      "name": "De",
+      "symbol": "var_de_22"
+    },
+    {
+      "id": "b255c6a0-1329-45db-972d-e62d22b67bd6__L0",
+      "name": "De",
+      "symbol": "var_de_23"
+    },
+    {
+      "id": "82372f16-288a-4b31-ba63-671edb2b899b__L0",
+      "name": "De",
+      "symbol": "var_de_24"
+    },
+    {
+      "id": "9cc279ec-f8de-47c1-89eb-10bc2c8af66c__L0",
+      "name": "De",
+      "symbol": "var_de_25"
+    },
+    {
+      "id": "12",
+      "name": "Cow2Health",
+      "symbol": "var_cow2health"
+    },
+    {
+      "id": "15",
+      "name": "Cow3Health",
+      "symbol": "var_cow3health"
+    },
+    {
+      "id": "16",
+      "name": "Cow4Health",
+      "symbol": "var_cow4health"
+    },
+    {
+      "id": "19",
+      "name": "Cow5Health",
+      "symbol": "var_cow5health"
+    },
+    {
+      "id": "23",
+      "name": "Cow6Health",
+      "symbol": "var_cow6health"
+    },
+    {
+      "id": "17",
+      "name": "Cow7Health",
+      "symbol": "var_cow7health"
+    },
+    {
+      "id": "20",
+      "name": "Cow8Health",
+      "symbol": "var_cow8health"
+    },
+    {
+      "id": "21",
+      "name": "Cow9Health",
+      "symbol": "var_cow9health"
+    },
+    {
+      "id": "25",
+      "name": "Cow10Health",
+      "symbol": "var_cow10health"
+    },
+    {
+      "id": "26",
+      "name": "Cow11Health",
+      "symbol": "var_cow11health"
+    },
+    {
+      "id": "28",
+      "name": "Cow12Health",
+      "symbol": "var_cow12health"
+    },
+    {
+      "id": "31",
+      "name": "Cow13Health",
+      "symbol": "var_cow13health"
     }
   ]
 }

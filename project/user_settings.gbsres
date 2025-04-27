@@ -1,13 +1,13 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 80,
-  "worldScrollY": 11.5,
-  "zoom": 68.63444256037474,
+  "worldScrollX": 910,
+  "worldScrollY": 477.5,
+  "zoom": 172.409255258739,
   "navigatorSplitSizes": [
-    205,
+    376,
     30,
-    205,
-    229
+    202,
+    330
   ],
   "showNavigator": true,
   "showCollisions": true,
