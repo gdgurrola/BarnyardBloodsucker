@@ -45,6 +45,22 @@
         }
       },
       "id": "b5821e93-f5b4-4ae7-8bc0-2b287a8a4380"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 17
+      },
+      "id": "ef85fdea-6711-49a9-8005-eb19e1c8aefe"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 29, 1, 95, 119"
+      },
+      "id": "d90fdf22-5c46-4d73-a41e-8b02d25562a2"
     }
   ],
   "playerHit1Script": [

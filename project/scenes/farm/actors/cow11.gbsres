@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "42da24f8-b4a4-48f9-829f-80a3f17f6e4f",
-  "name": "Cow1",
+  "id": "726b3496-facb-4548-b421-73cb53c9f862",
+  "name": "Cow11",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_13",
+  "symbol": "actor_6",
   "script": [
     {
       "command": "EVENT_IF",
@@ -42,7 +42,7 @@
               "spriteSheetId": "bf44b1b1-dcfa-4151-9c3e-fce678de7eef",
               "__collapse": true
             },
-            "id": "f4d5bfea-9859-4f74-99cd-9d00788a5040"
+            "id": "ba7e64d9-7812-440c-9576-ac5e7bdf37db"
           },
           {
             "command": "EVENT_DEC_VALUE",
@@ -50,7 +50,7 @@
               "variable": "4",
               "__collapse": true
             },
-            "id": "d9e0e8a1-5158-4cd2-8afd-d2799ef3251c"
+            "id": "128319ab-ea82-4c03-9a24-f22dfcba5f78"
           },
           {
             "command": "EVENT_INC_VALUE",
@@ -58,7 +58,7 @@
               "variable": "5",
               "__collapse": true
             },
-            "id": "4adb9ccc-5780-4e76-816b-4ecf8d09a5e7"
+            "id": "c5e54892-e609-4aba-a6b2-15322b1781b1"
           },
           {
             "command": "EVENT_IF",
@@ -87,7 +87,7 @@
                     "vectorY": "6",
                     "__collapse": true
                   },
-                  "id": "d9960d3e-18af-401e-9986-3ec1e0088a32"
+                  "id": "2495d353-1a44-4c40-bf34-482a554fe57e"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -106,7 +106,7 @@
                     },
                     "__collapse": true
                   },
-                  "id": "9a0f8e94-6b0a-4fd7-a654-cb15bef84b09"
+                  "id": "85df800e-5228-4ad8-a9ce-418d63f402f7"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -125,7 +125,7 @@
                     },
                     "__collapse": true
                   },
-                  "id": "b55821dc-a9bf-4f36-b55b-ea043a3e94a8"
+                  "id": "51035d3b-bf3f-46ef-88e1-a9c8cc41efd5"
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -151,7 +151,7 @@
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
-                  "id": "701c70a5-af54-4c6d-be2f-6e47ba24123a"
+                  "id": "1e07e1e5-6e6d-4a81-83cb-f23a1ec1a371"
                 },
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -159,12 +159,12 @@
                     "customEventId": "457e26fd-ac76-4629-8800-22e6ba50a75a",
                     "__collapse": true
                   },
-                  "id": "f09428e1-9054-4609-9863-0875469634cd"
+                  "id": "52dce542-33b9-46b7-8d03-c890a8863992"
                 }
               ],
               "false": []
             },
-            "id": "d28b8655-5139-4544-94d6-53b4fe792b7c"
+            "id": "2674624f-f8fd-44d5-9ebf-478a39eea8cf"
           },
           {
             "command": "EVENT_WAIT",
@@ -173,7 +173,7 @@
               "frames": 30,
               "__collapse": true
             },
-            "id": "cdf30e1e-1d0e-405c-a8ee-e04aa385bdef"
+            "id": "82bfbf7c-41f2-495f-9824-7a49391d86c5"
           },
           {
             "command": "EVENT_ACTOR_SET_SPRITE",
@@ -181,12 +181,12 @@
               "actorId": "$self$",
               "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57"
             },
-            "id": "778ac7c6-397e-4e04-82cc-0897a1d9ad72"
+            "id": "cda05993-155b-488d-9bec-485c2e201e01"
           }
         ],
         "false": []
       },
-      "id": "7d66ffcf-c70d-48da-96d0-3fbfc78b8e68"
+      "id": "0ab0408c-d59a-4330-a050-1f0fa69deaf1"
     }
   ],
   "startScript": [],
@@ -194,7 +194,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 32,
-  "y": 52,
-  "_index": 13
+  "x": 75,
+  "y": 83,
+  "_index": 8
 }
