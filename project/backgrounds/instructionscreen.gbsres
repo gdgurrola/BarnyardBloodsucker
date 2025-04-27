@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4861c942-006f-4b54-9712-9d26fa8f37d9",
+  "name": "instructionscreen",
+  "symbol": "bg_instructionscreen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "instructionscreen.png",
+  "tileColors": ""
+}
