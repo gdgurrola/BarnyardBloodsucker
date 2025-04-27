@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "ad3591ba-db5d-4c59-a528-cac2ca8255de",
+  "name": "Restart Game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8b4f677d-e60b-4553-bd6f-ebe7492e4125",
+              "x": {
+                "type": "number",
+                "value": 51
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3ad915f2-b31f-46dc-b71a-03f4094c3b40"
+          }
+        ],
+        "false": []
+      },
+      "id": "8b744aef-2d5f-4d09-b3f0-feb7eb92a0fc"
+    }
+  ]
+}

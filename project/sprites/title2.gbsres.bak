@@ -3,11 +3,13 @@
   "id": "da5c6f40-19e5-461b-bf31-084582a5caaf",
   "name": "title2",
   "symbol": "bg_title2",
-  "numFrames": 10,
-  "filename": "title2.png",
-  "checksum": "9d6615a99d677ee1cb03b5ad8cf0c956ba6bf65f",
   "width": 160,
   "height": 144,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "title2.png",
+  "numFrames": 10,
+  "checksum": "9d6615a99d677ee1cb03b5ad8cf0c956ba6bf65f",
   "states": [
     {
       "id": "5d4f346d-5e98-475d-8d03-d750ad9cc398",
@@ -97,7 +99,5 @@
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 16,
-  "animSpeed": 15,
-  "imageWidth": 160,
-  "imageHeight": 144
+  "animSpeed": 15
 }

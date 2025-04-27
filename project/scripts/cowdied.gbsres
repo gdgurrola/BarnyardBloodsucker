@@ -13,31 +13,6 @@
   "symbol": "script_2",
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "game over"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "f60983a0-2e6a-4439-b609-48a48d2ebb65"
-    },
-    {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
@@ -61,6 +36,23 @@
         "useCollisions": false
       },
       "id": "a24e3b40-5b82-4344-b531-45bd1821b480"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "5a7e8398-9f99-46c9-a3d4-b86cf98dc40e",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d56087c7-1440-43c6-bc8c-ac152abde016"
     }
   ]
 }
