@@ -1,27 +1,27 @@
 {
   "_resourceType": "scene",
-  "id": "41f19e54-2224-4f22-b3d9-a79563ce0006",
-  "_index": 2,
-  "name": "Instructions ",
-  "backgroundId": "4861c942-006f-4b54-9712-9d26fa8f37d9",
+  "id": "5a7e8398-9f99-46c9-a3d4-b86cf98dc40e",
+  "_index": 3,
+  "name": "Game Over",
+  "backgroundId": "71904a01-1a21-4f65-a6e6-90ff3e943f43",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 128,
-  "y": 304,
+  "symbol": "scene_4",
+  "x": 96,
+  "y": 520,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "5c169205-3879-4cbd-a325-4e069511652a"
+      "id": "e1b61666-4e3f-4596-87c1-0dc8dbf63a24"
     },
     {
       "command": "EVENT_OVERLAY_SHOW",
@@ -30,24 +30,25 @@
         "x": 0,
         "y": 0
       },
-      "id": "e63a6a47-5d97-44a6-b6c0-254ea300084c"
+      "id": "255408b4-1b1e-4a29-b6fa-28985f84f1ac"
     },
     {
       "command": "EVENT_OVERLAY_MOVE_TO",
       "args": {
         "x": 0,
         "y": 18,
-        "speed": 3
+        "speed": 2
       },
-      "id": "d043dc44-b32e-4eb5-9dae-eb3b739986f9"
+      "id": "7f301366-e6fa-4f20-9ca9-0244e03b3e8a"
     },
     {
-      "command": "EVENT_WAIT",
+      "command": "EVENT_AWAIT_INPUT",
       "args": {
-        "time": 3,
-        "frames": 30
+        "input": [
+          "start"
+        ]
       },
-      "id": "1425d570-4e23-46b5-83db-386c095c2620"
+      "id": "3fe8804b-57a6-4d6d-9850-8ca9e2d71769"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -55,16 +56,16 @@
         "sceneId": "8b4f677d-e60b-4553-bd6f-ebe7492e4125",
         "x": {
           "type": "number",
-          "value": 32
+          "value": 5
         },
         "y": {
           "type": "number",
-          "value": 45
+          "value": 16
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "6155c5b0-bcdc-4308-9fa0-19fdfebf472c"
+      "id": "b93a6177-0d14-4649-9e33-09a36dc9784c"
     }
   ],
   "playerHit1Script": [],

@@ -61,6 +61,17 @@
         "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 29, 1, 95, 119"
       },
       "id": "d90fdf22-5c46-4d73-a41e-8b02d25562a2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "fe1d6631-c66a-4f7f-a1cb-2fd27c1f244f"
     }
   ],
   "playerHit1Script": [

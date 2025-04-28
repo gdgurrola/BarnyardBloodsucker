@@ -50,27 +50,10 @@
         },
         "otherActorId": "392f0dd2-81f2-43cd-a8dc-acb433c39e6a",
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "5a7e8398-9f99-46c9-a3d4-b86cf98dc40e",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "89ec6789-97fd-43ab-a809-abf4c2ba3184"
-          },
           {
             "command": "EVENT_TEXT",
             "args": {
@@ -96,6 +79,23 @@
               "__collapse": false
             },
             "id": "ede9f546-dee2-4a05-86ed-1313f942f42c"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "5a7e8398-9f99-46c9-a3d4-b86cf98dc40e",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "89ec6789-97fd-43ab-a809-abf4c2ba3184"
           },
           {
             "command": "EVENT_STOP",
