@@ -62,6 +62,11 @@
       "symbol": ""
     },
     {
+      "id": "12",
+      "name": "Cow2Health",
+      "symbol": "var_cow2health"
+    },
+    {
       "id": "13",
       "name": "DeathX",
       "symbol": "var_deathx"
@@ -70,6 +75,61 @@
       "id": "14",
       "name": "IsDrinking",
       "symbol": "var_isdrinking"
+    },
+    {
+      "id": "15",
+      "name": "Cow3Health",
+      "symbol": "var_cow3health"
+    },
+    {
+      "id": "16",
+      "name": "Cow4Health",
+      "symbol": "var_cow4health"
+    },
+    {
+      "id": "17",
+      "name": "Cow7Health",
+      "symbol": "var_cow7health"
+    },
+    {
+      "id": "19",
+      "name": "Cow5Health",
+      "symbol": "var_cow5health"
+    },
+    {
+      "id": "20",
+      "name": "Cow8Health",
+      "symbol": "var_cow8health"
+    },
+    {
+      "id": "21",
+      "name": "Cow9Health",
+      "symbol": "var_cow9health"
+    },
+    {
+      "id": "23",
+      "name": "Cow6Health",
+      "symbol": "var_cow6health"
+    },
+    {
+      "id": "25",
+      "name": "Cow10Health",
+      "symbol": "var_cow10health"
+    },
+    {
+      "id": "26",
+      "name": "Cow11Health",
+      "symbol": "var_cow11health"
+    },
+    {
+      "id": "28",
+      "name": "Cow12Health",
+      "symbol": "var_cow12health"
+    },
+    {
+      "id": "31",
+      "name": "Cow13Health",
+      "symbol": "var_cow13health"
     },
     {
       "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80__L0",
@@ -210,66 +270,6 @@
       "id": "9cc279ec-f8de-47c1-89eb-10bc2c8af66c__L0",
       "name": "De",
       "symbol": "var_de_25"
-    },
-    {
-      "id": "12",
-      "name": "Cow2Health",
-      "symbol": "var_cow2health"
-    },
-    {
-      "id": "15",
-      "name": "Cow3Health",
-      "symbol": "var_cow3health"
-    },
-    {
-      "id": "16",
-      "name": "Cow4Health",
-      "symbol": "var_cow4health"
-    },
-    {
-      "id": "19",
-      "name": "Cow5Health",
-      "symbol": "var_cow5health"
-    },
-    {
-      "id": "23",
-      "name": "Cow6Health",
-      "symbol": "var_cow6health"
-    },
-    {
-      "id": "17",
-      "name": "Cow7Health",
-      "symbol": "var_cow7health"
-    },
-    {
-      "id": "20",
-      "name": "Cow8Health",
-      "symbol": "var_cow8health"
-    },
-    {
-      "id": "21",
-      "name": "Cow9Health",
-      "symbol": "var_cow9health"
-    },
-    {
-      "id": "25",
-      "name": "Cow10Health",
-      "symbol": "var_cow10health"
-    },
-    {
-      "id": "26",
-      "name": "Cow11Health",
-      "symbol": "var_cow11health"
-    },
-    {
-      "id": "28",
-      "name": "Cow12Health",
-      "symbol": "var_cow12health"
-    },
-    {
-      "id": "31",
-      "name": "Cow13Health",
-      "symbol": "var_cow13health"
     }
   ]
 }

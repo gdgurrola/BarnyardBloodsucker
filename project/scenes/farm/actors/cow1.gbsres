@@ -189,7 +189,19 @@
       "id": "20a438fa-00e9-465d-a4c5-5605afe7b1de"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "3fb2cf5b-9f5b-4fb5-95b8-49841087ec1b"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

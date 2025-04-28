@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "cadf52ef-5ff9-4b90-9999-20d3b0536b80",
+  "id": "2aab0ccf-c5ad-4e9d-b84e-ab4f4d3a5d24",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57",
+  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,187 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_1",
-  "script": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gt",
-          "valueA": {
-            "type": "variable",
-            "value": "4"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "$self$",
-              "spriteSheetId": "bf44b1b1-dcfa-4151-9c3e-fce678de7eef",
-              "__collapse": true
-            },
-            "id": "62a0c12d-117e-45de-ac17-6df4c5ed3fb5"
-          },
-          {
-            "command": "EVENT_DEC_VALUE",
-            "args": {
-              "variable": "4",
-              "__collapse": true
-            },
-            "id": "da613c45-cdfc-4b78-b226-f620eaa20c41"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "5",
-              "__collapse": true
-            },
-            "id": "ab9aca7a-917c-49e3-903a-d635da027bd6"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "4"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_GET_POSITION",
-                  "args": {
-                    "actorId": "player",
-                    "vectorX": "13",
-                    "vectorY": "6",
-                    "__collapse": true
-                  },
-                  "id": "10122e46-9889-4043-b3c9-ec99a5669952"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "13",
-                    "value": {
-                      "type": "add",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "13"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 3
-                      }
-                    },
-                    "__collapse": true
-                  },
-                  "id": "328e612b-a7bd-4429-a8ac-eff476c53c58"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "6",
-                    "value": {
-                      "type": "add",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "6"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 3
-                      }
-                    },
-                    "__collapse": true
-                  },
-                  "id": "54574718-8430-4346-9bec-d021484b9e28"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "cow dead"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "373c2912-87bb-460d-88a7-f65ac05f39b5"
-                },
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "457e26fd-ac76-4629-8800-22e6ba50a75a",
-                    "__collapse": true
-                  },
-                  "id": "6ad6cf86-ab79-42d9-b498-e52ff54a6829"
-                }
-              ],
-              "false": []
-            },
-            "id": "e590ddf1-1359-4ac9-a91b-1bb000bad3de"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.75,
-              "frames": 30,
-              "__collapse": true
-            },
-            "id": "67172d2a-1796-4400-a574-9b68b79b7879"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "$self$",
-              "spriteSheetId": "87251561-d144-4ecf-8238-f6ff9adafb57"
-            },
-            "id": "d6a5764a-2c7a-4647-a34d-c49be6b83abd"
-          }
-        ],
-        "false": []
-      },
-      "id": "20a438fa-00e9-465d-a4c5-5605afe7b1de"
-    }
-  ],
+  "symbol": "actor_8",
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 57,
-  "y": 32,
-  "_index": 1
+  "x": 65,
+  "y": 7,
+  "_index": 15
 }

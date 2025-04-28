@@ -56,7 +56,7 @@
           "value": 23
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": true
       },
       "children": {
@@ -242,7 +242,7 @@
             "command": "EVENT_STOP",
             "args": {
               "__comment": true,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "1149ace1-00e0-4237-8e2f-b31c21b527fc"
           },
@@ -281,7 +281,7 @@
       "command": "EVENT_COMMENT",
       "args": {
         "text": "0: down\n1: right\n2: up\n3: left",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "53adf436-f24b-4586-8c99-9f5881c2e265"
     },
