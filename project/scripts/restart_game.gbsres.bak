@@ -11,8 +11,7 @@
       "command": "EVENT_IF_INPUT",
       "args": {
         "input": [
-          "a",
-          "b"
+          "start"
         ],
         "__collapseElse": true
       },

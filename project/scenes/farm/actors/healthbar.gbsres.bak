@@ -269,6 +269,126 @@
         "false": []
       },
       "id": "d3a64d1e-52e5-43a9-a232-dd722def15e1"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "5",
+        "choices": 5,
+        "__collapseCase0": false,
+        "value0": 17,
+        "__collapseCase1": false,
+        "value1": 18,
+        "__collapseCase2": false,
+        "value2": 19,
+        "__collapseCase3": false,
+        "value3": 20,
+        "__collapseCase4": false,
+        "value4": 21,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5f872e7f-f940-45ce-896e-7ab79c67fbcb"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 17
+              }
+            },
+            "id": "4b76f000-43b8-4d22-aafa-b5049a58a8aa"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 18
+              }
+            },
+            "id": "1a867de3-8aa2-457b-a58d-50cbf20a2ea7"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 19
+              }
+            },
+            "id": "b2af40e7-e179-4445-bb03-3fe6ad7e0590"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 20
+              }
+            },
+            "id": "c1166399-e27b-468e-baec-e2e8c029110e"
+          }
+        ],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "48773b8f-96ee-424c-b953-1784cd19da22"
     }
   ],
   "hit1Script": [],
