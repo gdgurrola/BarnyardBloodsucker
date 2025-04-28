@@ -56,6 +56,31 @@
                     "__collapse": false
                   },
                   "id": "bcd517cb-55a8-425a-b4e5-0db343ed3007"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1,
+                    "frames": 30
+                  },
+                  "id": "18f93e5a-9927-4a18-baa9-3093be774d68"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "905c19cd-713d-4d98-97d6-317b306adc7d",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "up",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "618a3b87-2de4-493c-bcc5-2e9218ebabb9"
                 }
               ],
               "false": []
@@ -63,7 +88,33 @@
             "id": "af129ac6-7707-4bb6-a493-cf4dd7f40794"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I Need More Blood\nBefore Morning"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "00988eab-fab4-4631-b91d-feaa19b0c646"
+          }
+        ]
       },
       "id": "44b72d30-43a8-4ecb-b6d7-c3b0fd558510"
     }

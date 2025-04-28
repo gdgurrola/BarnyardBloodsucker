@@ -45,6 +45,20 @@
             "id": "62a0c12d-117e-45de-ac17-6df4c5ed3fb5"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "92f845fb-c90f-40cf-a948-6a06c5d4b986",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "11f6bf53-6464-4099-8147-14486251f56f"
+          },
+          {
             "command": "EVENT_DEC_VALUE",
             "args": {
               "variable": "4",

@@ -1,0 +1,189 @@
+{
+  "_resourceType": "script",
+  "id": "fe01f09d-d038-4fa0-8313-51e4a81fe206",
+  "name": "Move Spotlight 1",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "9": {
+      "id": "9",
+      "name": "Actor J"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "0: down\n1: right\n2: up\n3: left",
+        "__collapse": true
+      },
+      "id": "cdc7a702-f009-4bce-a319-0169a4731f7d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "c6a22a55-cc4d-4d7b-bfb5-5eabef921e7c"
+          }
+        ],
+        "false": []
+      },
+      "id": "1a07f3a2-b7f2-45b5-88d8-d1bb907d78db"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "86efa179-da40-4bf2-a5e4-8239d13a8011"
+          }
+        ],
+        "false": []
+      },
+      "id": "21e7119e-11e2-4c28-9a2d-3e02e0c1d0c5"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "279e0326-6698-4096-ab69-7e636b85d29a"
+          }
+        ],
+        "false": []
+      },
+      "id": "10daaf19-50c9-474b-80a3-e63105ffe69b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "970515c6-4d59-43b5-9f4e-2032ed446ab4"
+          }
+        ],
+        "false": []
+      },
+      "id": "4bb3d473-e316-4bbb-a939-c65862d5ccf8"
+    }
+  ]
+}

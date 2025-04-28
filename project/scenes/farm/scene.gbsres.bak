@@ -58,19 +58,6 @@
         "__collapse": true
       },
       "id": "fe1d6631-c66a-4f7f-a1cb-2fd27c1f244f"
-    },
-    {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
-      "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": true,
-        "effect": 0
-      },
-      "id": "7bcc7132-56d5-4937-89df-d1aabeab17f3"
     }
   ],
   "playerHit1Script": [
