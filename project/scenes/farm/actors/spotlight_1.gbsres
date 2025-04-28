@@ -56,7 +56,9 @@
           "value": 32
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": true,
+        "__disableElse": true,
+        "__comment": true
       },
       "children": {
         "true": [],
@@ -73,7 +75,7 @@
           "type": "number",
           "value": 4
         },
-        "otherActorId": "76ae51e7-f18c-4737-9210-816d6a851de4",
+        "otherActorId": "$self$",
         "__collapseElse": true,
         "__collapse": false
       },
@@ -83,7 +85,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You've been spotted!"
+                "1 - You've been spotted!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -118,14 +120,16 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "8e3de8d3-8d4f-4571-8d04-802ef5ae3cd4"
           },
           {
             "command": "EVENT_STOP",
             "args": {
-              "__collapse": true
+              "__collapse": false,
+              "__comment": true
             },
             "id": "e33cedbc-a06a-4343-829a-73d46e58b518"
           }
@@ -138,7 +142,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "fe01f09d-d038-4fa0-8313-51e4a81fe206",
-        "$actor[9]$": "76ae51e7-f18c-4737-9210-816d6a851de4",
+        "$actor[9]$": "$self$",
         "__collapse": true
       },
       "id": "dec13126-1ab0-4602-9d99-40300a140cae"
@@ -167,7 +171,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -203,7 +207,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -239,7 +243,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -275,7 +279,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -289,6 +293,17 @@
               }
             },
             "id": "3127723d-1eb9-4dda-9993-da8812ba0a41"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "bf9f465a-66fa-4673-8959-d346c531fd44"
           }
         ],
         "false": []

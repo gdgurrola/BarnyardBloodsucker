@@ -259,7 +259,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "b87c1288-b8af-4494-bc44-b34f20040841"
           }
@@ -273,7 +274,7 @@
       "args": {
         "customEventId": "b3299bb6-3fa1-4164-88bb-135bcdfa4566",
         "$actor[0]$": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8b739f93-f7f7-431d-94de-19acb4bbe3fe"
     },
@@ -301,7 +302,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -336,7 +337,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -371,7 +372,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -406,7 +407,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -441,7 +442,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "0",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "id": "a2af9cda-f052-4110-ba92-47c94ac3f996"

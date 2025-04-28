@@ -31,7 +31,8 @@
           "value": 72
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false,
+        "__comment": true
       },
       "children": {
         "true": [],
@@ -48,7 +49,7 @@
           "type": "number",
           "value": 4
         },
-        "otherActorId": "392f0dd2-81f2-43cd-a8dc-acb433c39e6a",
+        "otherActorId": "$self$",
         "__collapseElse": true,
         "__collapse": false
       },
@@ -58,7 +59,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You've been spotted!"
+                "2 - You've been spotted"
               ],
               "__section": "text",
               "avatarId": "",
@@ -93,7 +94,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": false
             },
             "id": "89ec6789-97fd-43ab-a809-abf4c2ba3184"
           },
@@ -113,7 +115,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0fdbe22b-e609-4ddf-bab6-4284af4425de",
-        "$actor[8]$": "392f0dd2-81f2-43cd-a8dc-acb433c39e6a",
+        "$actor[8]$": "$self$",
         "__collapse": true
       },
       "id": "0b1ff6ed-2a39-4a32-871a-c489eda59bd0"
@@ -142,7 +144,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -178,7 +180,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -214,7 +216,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -250,7 +252,7 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -264,6 +266,17 @@
               }
             },
             "id": "a6c6de15-21d6-4ee7-9bcb-83b47d56ae6b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "25da5118-958b-44d7-abd3-7b669bcc3db0"
           }
         ],
         "false": []
@@ -274,7 +287,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "8",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "id": "eb546716-3124-4aed-b2fc-246a81e1551a"
