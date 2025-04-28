@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "905c19cd-713d-4d98-97d6-317b306adc7d",
-  "_index": 5,
+  "_index": 4,
   "name": "Win",
   "backgroundId": "772c7cd4-9a45-4f48-ac74-87283e38a313",
   "tilesetId": "",
@@ -53,14 +53,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "db584255-8533-4965-9d24-d52fd614f151",
+        "sceneId": "8b4f677d-e60b-4553-bd6f-ebe7492e4125",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 105
         },
         "y": {
           "type": "number",
-          "value": 2
+          "value": 114
         },
         "direction": "down",
         "fadeSpeed": "2"
