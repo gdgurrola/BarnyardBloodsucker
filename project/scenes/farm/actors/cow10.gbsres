@@ -131,7 +131,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "cow dead"
+                      "You killed my \nprized heffer!!!\nHow could you!!!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -149,7 +149,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "d46aecc5-0094-4e40-adb8-b09da36c200c"
                 },
@@ -157,7 +157,7 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "457e26fd-ac76-4629-8800-22e6ba50a75a",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "b34ea335-9761-4d80-8168-1a5ea37dbc3e"
                 }
