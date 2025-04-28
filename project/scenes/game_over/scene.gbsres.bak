@@ -66,6 +66,18 @@
         "fadeSpeed": "2"
       },
       "id": "b93a6177-0d14-4649-9e33-09a36dc9784c"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "8393c032-7dad-4f26-91a7-a018acdfad15"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0bdff058-5a6c-446d-9756-b989c1adabed"
+      },
+      "id": "0fe0ada3-e60d-4f55-ba7b-e9c1f452e675"
     }
   ],
   "playerHit1Script": [],
