@@ -54,7 +54,8 @@
               "duration": 0.5,
               "wait": true,
               "effect": 0,
-              "__collapse": false
+              "__collapse": true,
+              "__comment": true
             },
             "id": "11f6bf53-6464-4099-8147-14486251f56f"
           },

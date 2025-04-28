@@ -145,7 +145,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "cow dead"
+                      "You killed my \nprized heffer!!!\nHow could you!!!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -163,7 +163,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "373c2912-87bb-460d-88a7-f65ac05f39b5"
                 },
