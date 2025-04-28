@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 140,
   "filename": "Numbers.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

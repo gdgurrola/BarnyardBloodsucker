@@ -75,17 +75,35 @@
           "type": "number",
           "value": 4
         },
-        "otherActorId": "$self$",
+        "otherActorId": "76ae51e7-f18c-4737-9210-816d6a851de4",
         "__collapseElse": true,
         "__collapse": false
       },
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "player",
+              "spriteSheetId": "0cda21a3-f8b5-447e-b328-fcb0a2280655",
+              "__collapse": false
+            },
+            "id": "ea574c9b-3736-4c25-b261-792c45d41be3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "player",
+              "spriteSheetId": "2c0b9bbc-1f86-46d2-bb8f-f888d0f010b3",
+              "__collapse": false
+            },
+            "id": "f6670ef8-8f6c-4cab-bc38-be86c6b5f1b2"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "1 - You've been spotted!"
+                "You're cooked!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -297,7 +315,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "8",
+              "variable": "2",
               "value": {
                 "type": "number",
                 "value": 0

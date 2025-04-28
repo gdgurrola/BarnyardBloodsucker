@@ -40,7 +40,7 @@
             "args": {
               "actorId": "$self$",
               "spriteSheetId": "bf44b1b1-dcfa-4151-9c3e-fce678de7eef",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ba7e64d9-7812-440c-9576-ac5e7bdf37db"
           },

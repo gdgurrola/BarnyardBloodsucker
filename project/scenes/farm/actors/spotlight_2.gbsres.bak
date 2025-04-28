@@ -59,7 +59,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "2 - You've been spotted"
+                "You're cooked!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -77,7 +77,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ede9f546-dee2-4a05-86ed-1313f942f42c"
           },
@@ -95,7 +95,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "89ec6789-97fd-43ab-a809-abf4c2ba3184"
           },
@@ -266,6 +266,17 @@
               }
             },
             "id": "a6c6de15-21d6-4ee7-9bcb-83b47d56ae6b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "25da5118-958b-44d7-abd3-7b669bcc3db0"
           }
         ],
         "false": []

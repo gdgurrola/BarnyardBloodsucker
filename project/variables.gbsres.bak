@@ -270,6 +270,11 @@
       "id": "9cc279ec-f8de-47c1-89eb-10bc2c8af66c__L0",
       "name": "De",
       "symbol": "var_de_25"
+    },
+    {
+      "id": "e996b1d3-419e-4b72-ba3b-fb1d7e930c04__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }
